@@ -1,2 +1,2 @@
-# Projeto Chalé
- Projeto realizado durante o curso de css da  Udemy
+# Projeto Voyagi Tour
+ > Projeto criado para treinar meus conhecimentos em html/css e js
