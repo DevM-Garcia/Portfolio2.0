@@ -299,6 +299,12 @@ img {
     font-size: 0.8rem;
 }
 
+.container-projetos .box-projeto .overlay .box-aviso {
+    background-color: var(--red-alternativo);
+    margin: 20px 0;
+}
+
+
 .container-projetos .box-projeto .overlay a:hover {
     color: #111;
 }
