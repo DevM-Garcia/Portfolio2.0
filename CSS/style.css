@@ -88,8 +88,8 @@ header {
 .btn-mobile {
     background: var(--bg-color);
     color: var(--cor-da-font);
-    padding: 5px 10px;
-    border-radius: 5px;
+    font-size: 1.3rem;
+    border: none;
     cursor: pointer;
     display: none;
 }
@@ -429,4 +429,77 @@ footer {
 .btn-acima i {
     font-size: 1rem;
     color: #fff;
+}
+
+/* responsivo */
+
+@media screen and (max-width:1110px) {
+    .container-contato .fila {
+        flex-direction: column;
+    }
+
+    #col-map img {
+        display: block;
+        width: 500px;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width:980px) {
+    .nav {
+        display: none;
+    }
+
+    .lista-header {
+        display: none;
+    }
+
+    .btn-mobile {
+        display: block;
+    }
+
+    .responsivo {
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 75px;
+        background-color: #242a2e;
+        width: 280px;
+    }
+
+    .responsivo ul {
+        display: block;
+    }
+
+    .responsivo ul li {
+        border-bottom: 1px solid #fff;
+        padding: 10px 0;
+        text-transform: uppercase;
+        margin-left: 20px;
+    }
+
+    .container-contato .fila .col {
+        display: block;
+        width: 100%;
+        padding: 1rem;
+    }
+
+    .contato #col-map {
+        display: none;
+
+    }
+
+    @media screen and (max-width:810px) {
+        .sobre .fila {
+            flex-direction: column;
+        }
+
+        .sobre .fila .col {
+            margin: 20px auto;
+        }
+    }
+
+    @media screen and (max-width:762px) {
+        .box-projeto {}
+    }
 }
